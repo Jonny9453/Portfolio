@@ -37,7 +37,7 @@ export default function Home() {
 
       <section id="work">
         <div className="workProjects">
-            <Link href="projects" ><img src="/img/moviepage.webp" alt=""  className="projectImage"/></Link>
+            <Link href="projects" ><Image src="/img/moviepage.webp" alt=""  className="projectImage" width={500} height={500}/></Link>
         </div>
       </section>
 
@@ -47,12 +47,12 @@ export default function Home() {
           
           <div className='descriptions'>
             <div className="logos">
-              <img className="logo" src="/img/icons8-html-48.svg" alt="html_Logo" height="100"/>
-              <img src="/img/icons8-css.svg" alt="" height="100"/>
-              <img src="/img/icons8-javascript-250.svg" alt="JavaScriptLogo" height="100"/>
-              <img src="/img/icons8-react-js-240.png" alt="" height="100"/>
-              <img src="/img/icons8-nodejs-256.png" alt="" height="100"/>
-              <img src="/img/icons8-mongodb-240.png" alt="" height="100"/>
+              <Image className="logo" src="/img/icons8-html-48.svg" alt="html_Logo" height="100" width="100"/>
+              <Image src="/img/icons8-css.svg" alt="" height="100" width="100"/>
+              <Image src="/img/icons8-javascript-250.svg" alt="JavaScriptLogo" height="100" width="100"/>
+              <Image src="/img/icons8-react-js-240.png" alt="" height="100" width="100"/>
+              <Image src="/img/icons8-nodejs-256.png" alt="" height="100" width="100"/>
+              <Image src="/img/icons8-mongodb-240.png" alt="" height="100" width="100"/>
             </div>
             <div className='skilldescription'>
               <div>
@@ -101,7 +101,7 @@ export default function Home() {
            management using MongoDB, API integration, and implementing authentication
            mechanisms to ensure secure user experiences.</p>
            <div className='mydp'>
-              <img src='/img/Mydp.jpg' />
+              <Image src='/img/Mydp.jpg'  alt=''   width={500} height={500} />
            </div>
           
         </div>
@@ -117,11 +117,11 @@ export default function Home() {
         </div>
         
         <div className='contactdec'>
-        <p className='contactDescription'>Lets Work Together</p>
+        <p className='contactDescription'>Let&apos;s Work Together</p>
            <div className='contactBox'>
-              <a href='#'>sharanmayank5@mail.com</a>
-              <a href='https://github.com/jonny9453?tab=repositories'>Github Profile</a>
-              <a href='https://www.linkedin.com/in/mayank-sharan-652717272/'>Linkedin Profile</a>
+              <Link href='#'>sharanmayank5@mail.com</Link>
+              <Link href='https://github.com/jonny9453?tab=repositories'>Github Profile</Link>
+              <Link href='https://www.linkedin.com/in/mayank-sharan-652717272/'>Linkedin Profile</Link>
            </div>
           
         </div>

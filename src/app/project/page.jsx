@@ -20,7 +20,7 @@ export default function project(params) {
                     <h2 class="projectTitle">Movie Web App</h2>
                 </div>
                 <div className="heroImageDiv">
-                    <Image src="/img/moviepage.webp" alt="" class="heroImage" />
+                    <Image src="/img/moviepage.webp" alt="" class="heroImage"  width={1000} height={1000}/>
                 </div>
                 <div className={`descriptionSection`}>
                     <div>
@@ -33,19 +33,19 @@ export default function project(params) {
                 </div>
                 <Suspense fallback={<p>Loading feed...</p>}>
                     <div className="heroImageDiv2">
-                        <Image src="/img/moviepage2.webp" alt="" class="heroImage" />
+                        <Image src="/img/moviepage2.webp" alt="" class="heroImage" width={2000} height={2000} />
                     </div>
                     <div className="heroImageDiv2">
-                        <Image src="/img/moviepage3.webp" alt="" class="heroImage" />
+                        <Image src="/img/moviepage3.webp" alt="" class="heroImage"  width={2000} height={2000} />
                     </div>
                     <div className="heroImageDiv2">
-                        <Image src="/img/moviepage4.webp" alt="" class="heroImage" />
+                        <Image src="/img/moviepage4.webp" alt="" class="heroImage"   width={2000} height={2000}/>
                     </div>
                     <div className="heroImageDiv2">
-                        <Image src="/img/moviepage5.webp" alt="" class="heroImage" />
+                        <Image src="/img/moviepage5.webp" alt="" class="heroImage"  width={2000} height={2000}/>
                     </div>
                     <div className="heroImageDiv2">
-                        <Image src="/img/moviepage6.webp" alt="" class="heroImage" />
+                        <Image src="/img/moviepage6.webp" alt="" class="heroImage"  width={2000} height={2000}/>
                     </div>
                 </Suspense>
               
