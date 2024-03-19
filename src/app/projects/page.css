@@ -1,0 +1,12 @@
+.projectswork{
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.021);
+    padding: 3rem;
+    text-align: center;
+}
+
+.headingWork{
+    font-size: 4rem;
+    text-align: center;
+    padding-top: 3rem;
+}

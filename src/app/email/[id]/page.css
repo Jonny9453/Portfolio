@@ -1,0 +1,58 @@
+input{
+  width:40rem;
+  padding:1rem;
+  border:1px solid black;
+  border-radius:1rem
+ }
+form{
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+gap:3rem
+}
+
+form>textarea{
+width: 100%;
+height: 150px;
+padding: 12px 20px;
+box-sizing: border-box;
+border: 2px solid #ccc;
+border-radius: 4px;
+background-color: #f8f8f8;
+font-size: 16px;
+resize: none;
+}
+
+form> button{
+width:20rem;
+padding: 2rem;
+border-radius: 1rem;
+background-color: black;
+color: white;
+font-size: 2rem;
+font-weight: 500;
+}
+
+label{
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.closemodal{
+  font-size: 2rem;
+  font-weight: 500;
+  background-color: rgb(168, 3, 88);
+  color: white;
+  border-radius: 1rem;
+  padding: 1rem;
+  width: fit-content;
+  cursor:pointer;
+  &:hover{
+    background-color: red;
+  }
+}
+
+.thanksMessage{
+  font-size: 3rem;
+  font-weight: 600;
+}
