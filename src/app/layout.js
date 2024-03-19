@@ -80,7 +80,7 @@ export default function RootLayout(props) {
         <header id="Navigation">
           <nav className="navbar1">
             <Link href="/" style={{textDecoration:"none", color:"black"}}>Mayank</Link>
-               <DateTime/>{/* Jhansi, India- 12:24:22 PM */}
+            <DateTime/>{/* Jhansi, India- 12:24:22 PM */}
           </nav>
       
           <nav className="navbar2">

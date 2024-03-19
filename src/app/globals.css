@@ -31,6 +31,14 @@ html{
   gap:4.7rem;
   font-size: 1.8rem;
   font-weight: 500;
+  
+}
+.navbar1 a{
+  &:hover{
+    transition: .3s;
+    color: rgb(245, 6, 125) !important;
+  }
+  
 }
 
 .navbar2{
@@ -48,6 +56,7 @@ html{
   border-radius: 2.4rem;
   border: 2px solid black;
   background-color: transparent;
+  transition: .4s;
   &:hover{
     background-color: black;
     color: white;
@@ -115,6 +124,7 @@ html{
   border-radius: 3.4rem;
   font-size: 1.5rem;
   font-weight: 500;
+  transition: .3s;
   &:hover{
     cursor: pointer;
     background-color: white;
@@ -229,6 +239,10 @@ margin-top:9rem
 }
 .aboutDescription> a{
   color: rgba(0, 0, 0, 0.8);
+  transition: .3s;
+  &:hover{
+    color: rgb(245, 6, 125);
+  }
 }
 
 .mydp{
@@ -278,6 +292,10 @@ margin-top:9rem
   font-style: italic;
   font-family: var(--font-Libre);
   color:#121F3E ;
+  transition: .3s;
+  &:hover{
+    color: rgb(245, 6, 125);
+  }
 }
 
 #heroProject{
