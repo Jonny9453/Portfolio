@@ -17,7 +17,7 @@ export default function Email() {
   return (
     <Modal>
           <span className='closemodal' onClick={() => router.back()}>Close</span>
-          <h2 className="talkHeading">Lets's Talk</h2>
+          <h2 className="talkHeading">Let&apos;s Talk</h2>
           <div>
           <form onSubmit={handleSubmit}>
             <div style={{display:"flex", flexDirection:"column", gap:"1rem"}}>

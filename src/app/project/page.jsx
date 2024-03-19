@@ -54,7 +54,7 @@ export default function project(params) {
             <footer >
               <hr />
               <div className='footer'>
-                <h3 className='footerContent'><em>Let's Work Together</em></h3>
+                <h3 className='footerContent'><em>Let&apos;s Work Together</em></h3>
                 <p className='footerEmail'>sharanmayank5@gmail.com</p>
               </div>
               <hr />
