@@ -99,7 +99,10 @@ export default function Home() {
            backend technologies. I specialize in crafting visually appealing and
            fully functional web applications. My proficiency extends to database
            management using MongoDB, API integration, and implementing authentication
-           mechanisms to ensure secure user experiences.</p>
+           mechanisms to ensure secure user experiences.<br/><br/>
+           <Link href="https://www.canva.com/design/DAF38MRcZDs/YPF_T9RvL0WtsADNkHI1Fw/view?
+           utm_content=DAF38MRcZDs&utm_campaign=designshare&utm_medium=link&utm_source=editor">
+            Resume</Link></p>
            <div className='mydp'>
               <Image src='/img/Mydp.jpg'  alt=''   width={500} height={500} />
            </div>

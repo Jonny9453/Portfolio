@@ -227,6 +227,9 @@ margin-top:9rem
   letter-spacing: 2px;
   text-align: justify;
 }
+.aboutDescription> a{
+  color: rgba(0, 0, 0, 0.8);
+}
 
 .mydp{
   width: 30rem;
