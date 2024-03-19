@@ -94,7 +94,7 @@ export default function Home() {
       <section id="about">
         <h2 className='about'>About Me</h2>
         <div className='aboutdec'>
-        <p className='aboutDescription'>I am a  Mayank with expertise in HTML, CSS, JavaScript,
+        <p className='aboutDescription'>Hi, I am Mayank a Developer with expertise in HTML, CSS, JavaScript,
            Node.js, React, and Next.js. With a strong foundation in frontend and
            backend technologies. I specialize in crafting visually appealing and
            fully functional web applications. My proficiency extends to database
