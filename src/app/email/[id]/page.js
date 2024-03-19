@@ -47,6 +47,18 @@ export default function Email() {
             </div>
             
             <div style={{display:"flex", flexDirection:"column", gap:"1rem"}}>
+              <label htmlFor="subject">
+                  Subject:
+              </label>
+              <input id='subject' type='text' name='Subject'/>
+              <ValidationError 
+                  prefix="Subject" 
+                  field="Subject"
+                  errors={state.errors}
+                />
+            </div>
+
+            <div style={{display:"flex", flexDirection:"column", gap:"1rem"}}>
               <label htmlFor='message' >Message:</label>
               <textarea rows="4" cols="20"   id="message"name="message" autoFocus/>
               <ValidationError 
