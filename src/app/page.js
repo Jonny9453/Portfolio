@@ -123,7 +123,7 @@ export default function Home() {
             <div className='contactdec'>
             <p className='contactDescription'>Let&apos;s Work Together</p>
               <div className='contactBox'>
-                  <Link href='#'>sharanmayank5@mail.com</Link>
+                  <Link href='email/i'>sharanmayank5@mail.com</Link>
                   <Link href='https://github.com/jonny9453?tab=repositories'>Github Profile</Link>
                   <Link href='https://www.linkedin.com/in/mayank-sharan-652717272/'>Linkedin Profile</Link>
               </div>
