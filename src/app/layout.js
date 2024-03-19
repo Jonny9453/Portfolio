@@ -56,7 +56,8 @@ const DateTime=()=>{
   })
   return (
     <>
-      {date.toLocaleTimeString()}
+      <p>{date.toLocaleString()}</p>
+      
     </>
   )
 }
