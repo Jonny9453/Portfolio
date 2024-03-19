@@ -108,27 +108,30 @@ export default function Home() {
       </section>
 
 <hr/>
-      <section id="contact">
-        <div className='contact'>
-        <i className="bi bi-arrow-down-right"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-arrow-down-right" viewBox="0 0 16 16">
-              <path fill-rule="evenodd" d="M14 13.5a.5.5 0 0 1-.5.5h-6a.5.5 0 0 1 0-1h4.793L2.146 2.854a.5.5 0 1 1 .708-.708L13 12.293V7.5a.5.5 0 0 1 1 0z"/>
-            </svg></i>
-        contact
-        </div>
-        
-        <div className='contactdec'>
-        <p className='contactDescription'>Let&apos;s Work Together</p>
-           <div className='contactBox'>
-              <Link href='#'>sharanmayank5@mail.com</Link>
-              <Link href='https://github.com/jonny9453?tab=repositories'>Github Profile</Link>
-              <Link href='https://www.linkedin.com/in/mayank-sharan-652717272/'>Linkedin Profile</Link>
-           </div>
-          
-        </div>
-        
+    <footer>
+        <section id="contact">
+            <div className='contact'>
+            <i className="bi bi-arrow-down-right"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-arrow-down-right" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M14 13.5a.5.5 0 0 1-.5.5h-6a.5.5 0 0 1 0-1h4.793L2.146 2.854a.5.5 0 1 1 .708-.708L13 12.293V7.5a.5.5 0 0 1 1 0z"/>
+                </svg></i>
+            contact
+            </div>
+            
+            <div className='contactdec'>
+            <p className='contactDescription'>Let&apos;s Work Together</p>
+              <div className='contactBox'>
+                  <Link href='#'>sharanmayank5@mail.com</Link>
+                  <Link href='https://github.com/jonny9453?tab=repositories'>Github Profile</Link>
+                  <Link href='https://www.linkedin.com/in/mayank-sharan-652717272/'>Linkedin Profile</Link>
+              </div>
+              
+            </div>
+            
 
 
-      </section>
+        </section>
+    </footer>
+      
       <hr/>
     </section>
     </>

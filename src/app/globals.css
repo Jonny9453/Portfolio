@@ -111,10 +111,16 @@ html{
   background-color: #0B0F13;
   color: #b2b6b6;
   padding: 2rem 3rem;
-  border: none;
+  border: 2px solid white;
   border-radius: 3.4rem;
   font-size: 1.5rem;
   font-weight: 500;
+  &:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border:2px solid black
+  }
 }
 
 

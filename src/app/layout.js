@@ -79,7 +79,7 @@ export default function RootLayout(props) {
       <section id="NavigationContainer" >
         <header id="Navigation">
           <nav className="navbar1">
-            <a >Mayank</a>
+            <Link href="/" style={{textDecoration:"none", color:"black"}}>Mayank</Link>
                <DateTime/>{/* Jhansi, India- 12:24:22 PM */}
           </nav>
       
