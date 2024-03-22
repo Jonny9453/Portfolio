@@ -76,35 +76,42 @@ export default function RootLayout(props) {
     <html lang="en" className={`${inter.variable} ${Libre.variable}`}>
       
       <body >
-      <section id="NavigationContainer" >
-        <header id="Navigation">
-          <nav className="navbar1">
-            <Link href="/" style={{textDecoration:"none", color:"black"}}>Mayank</Link>
-            <DateTime/>{/* Jhansi, India- 12:24:22 PM */}
-          </nav>
+        <div className='fixedNav'>
 
-          <nav className='dropdown'> 
-                <h1 onClick={()=>document.getElementById('dropdiv').style.display="inline-block"}>A</h1>
-                <div id='dropdiv'>
-                  <div id='dropbox'>
-                    <Link href="projects" className={`link ${pathname==='/projects' ? 'active' : null}`} >Work</Link>
-                    <Link href="#about"  className={`link ${pathname==='/about' ? 'active' : null}`}>about</Link>
-                    <Link href="/email/i" className={`link ${pathname==='/email/i' ? 'active' : null}`}>Lets Talk</Link>
-                    <Link href="#"  className={`link ${pathname==='/email/i' ? 'active' : null}`} onClick={()=>document.getElementById('dropdiv').style.display='none'}>cancel</Link>
-                  </div>
-                  
-                </div>
+       
+          <section id="NavigationContainer" >
+              <header id="Navigation">
                 
-          </nav>
-          <nav className="navbar2">
-            <Link href="projects" className={`link ${pathname==='/projects' ? 'active' : null}`} >Work</Link>
-            <Link href="#about"  className={`link ${pathname==='/about' ? 'active' : null}`}>about</Link>
-            <button className="button" onClick={() => router.push('/email/i')}>Lets Talk</button>
-          </nav>
-          
-        </header>
-        <hr/>
-      </section>
+              
+                <nav className="navbar1">
+                  <Link href="/" style={{textDecoration:"none", color:"black"}}>Mayank</Link>
+                  <DateTime/>{/* Jhansi, India- 12:24:22 PM */}
+                </nav>
+
+                <nav className='dropdown'> 
+                      <h1 onClick={()=>document.getElementById('dropbox').style.height="100%"}>A</h1>
+                      <div id='dropdiv'>
+                        <div id='dropbox'>
+                          <Link href="projects" className={`link ${pathname==='/projects' ? 'active' : null}`} onClick={()=>document.getElementById('dropbox').style.height='0'}>Work</Link>
+                          <Link href="#about"  className={`link ${pathname==='/#about' ? 'active' : null}`} onClick={()=>document.getElementById('dropbox').style.height='0'}>about</Link>
+                          <Link href="/email/i" className={`link ${pathname==='/email/i' ? 'active' : null}`} onClick={()=>document.getElementById('dropbox').style.height='0'}>Lets Talk</Link>
+                          <Link href="#"  className={`link ${pathname==='/email/i' ? 'active' : null}`} onClick={()=>document.getElementById('dropbox').style.height='0'}>cancel</Link>
+                        </div>
+                        
+                      </div>
+                      
+                </nav>
+                <nav className="navbar2">
+                  <Link href="projects" className={`link ${pathname==='/projects' ? 'active' : null}`} >Work</Link>
+                  <Link href="#about"  className={`link ${pathname==='/about' ? 'active' : null}`}>about</Link>
+                  <button className="button" onClick={() => router.push('/email/i')}>Lets Talk</button>
+                </nav>
+                
+              </header>
+              <hr/>
+          </section>
+        
+          </div>
         {props.children}
         {props.modal &&props.modal}
       </body>
