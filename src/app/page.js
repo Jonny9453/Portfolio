@@ -19,7 +19,8 @@ export default function Home() {
         <div className="mainHeading">
           <h1 className="heading">
             Hey I am Mayank
-            <span className="position">A Frontend Developer</span>
+            <span className='position'>A</span>
+            <span className="position"> Frontend Developer</span>
           </h1>
           <div className="work">
             <i className="bi bi-arrow-down-right"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-arrow-down-right" viewBox="0 0 16 16">
@@ -36,6 +37,7 @@ export default function Home() {
       </main>
 
       <section id="work">
+        <h2>Work</h2>
         <div className="workProjects">
             <Link href="projects" ><Image src="/img/moviepage.webp" alt=""  className="projectImage" width={500} height={500}/></Link>
         </div>

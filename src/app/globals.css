@@ -5,6 +5,12 @@
   box-sizing:border-box;
 }
 
+body{
+  padding-left: 10rem;
+  padding-right: 10rem;
+  
+}
+
 html{
   font-size: 62.5%;
   font-family: 'Inter', sans-serif;
@@ -74,8 +80,38 @@ a:hover{
   display: grid;
   grid-template-columns: 2fr 1fr;
   column-gap: 3rem;
-
+  
 }
+
+.dropdown{
+  display: none;
+  
+}
+
+#dropdiv{
+  
+}
+
+#dropbox{
+ 
+  
+  
+  position: fixed;
+  left: 0;
+  top:0rem;
+  width: 100vw;
+  padding: 3rem;
+  height: 100vh;
+  z-index: 1000;
+  background-color: white;
+}
+
+
+
+
+
+
+
 .mainHeading{
   margin-top: 9.4rem;
   display: flex;
@@ -89,6 +125,9 @@ a:hover{
   word-spacing:0rem;
 }
 
+.heading span{
+  display: inline-block;
+}
 
 .position{
   display: block;
@@ -135,14 +174,23 @@ a:hover{
 
 #work{
   margin-top: 7rem;
-  display: flex;
+  
+  
   gap: 3rem;
 }
+
+
+#work h2{
+  display: none;
+}
+
+
 
 .workProjects{
   width:45.8rem;
   height:27.1rem;
   overflow: hidden;
+  
   
   
   object-fit: cover;
@@ -274,6 +322,7 @@ margin-top:9rem
 
 .contactdec{
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
@@ -420,4 +469,141 @@ footer{
   font-weight: 500 ;
   color: #121F3E;
   word-spacing:0rem;
+}
+
+@media only screen and (max-width:500px){
+
+  body{
+    padding: 2.5rem;
+  }
+ #Main >main{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows:auto ;
+  
+  /* height:40rem; */
+ }
+ .mainHeading{
+  margin-top: 3.4rem !important;
+ }
+ .heading{
+  max-width: 27.4rem;
+  display: flex;
+  flex-direction: column;
+  font-size: 4rem !important;
+ }
+ .work{
+  display: none !important;
+ }
+
+ #work h2{
+  display: block !important;
+  font-size: 3rem;
+  font-weight: 400 ;
+  color: #121F3E;
+  padding-bottom: 4rem;
+}
+
+.workProjects{
+  width: 100% !important;
+}
+
+ .headlinePara{
+  margin-top: 3rem !important;
+ }
+
+ .navbar2{
+  display: none;
+ }
+
+ .dropdown{
+    display: inline-block;
+ }
+ #dropbox{
+  
+  display: none;
+  display: grid;
+  grid-template-rows:  1fr 1fr 1fr 1fr;
+  grid-auto-columns: 1fr;
+  align-items:center;
+  justify-items: center;
+  justify-content: center;
+  row-gap: 4px ;
+  
+ }
+
+ 
+
+ #dropbox a{
+  
+  
+  font-size: 3rem;
+  
+  
+ }
+ 
+
+ .contactdec{
+  justify-content: flex-start;
+ }
+
+ .contactDescription{
+  font-size: 3rem;
+ }
+ .contactBox{
+  
+  text-align: left !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+ }
+ .contactBox >a{
+  font-size: 2rem !important;
+ }
+
+ .skills{
+  font-size: 3rem;
+ }
+ .skilldescription>div> p {
+  font-size: 1.5rem !important;
+ }
+
+  .descriptions{
+    flex-direction: column;
+  }
+
+
+
+  .logos{
+    padding: 4rem 8rem 4rem 8rem;
+    width: 100%;
+    gap: 2rem
+  }
+ .logos >img{
+  width: 50px !important;
+  height: 50px !important;
+ }
+
+
+ .skilldescription {
+  width: 95%;
+ }
+
+ .about{
+  font-size: 3rem;
+ }
+
+ .aboutdec{
+  flex-direction:column-reverse;
+  gap:3rem;
+  padding: 4rem 0 3rem 0;
+ }
+
+ .aboutDescription{
+  font-size: 1.5rem;
+  width: 95%;
+ }
+ .mydp{
+  width: 20rem;
+  height: 25rem;
+ }
 }

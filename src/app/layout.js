@@ -82,7 +82,20 @@ export default function RootLayout(props) {
             <Link href="/" style={{textDecoration:"none", color:"black"}}>Mayank</Link>
             <DateTime/>{/* Jhansi, India- 12:24:22 PM */}
           </nav>
-      
+
+          <nav className='dropdown'> 
+                <h1 onClick={()=>document.getElementById('dropdiv').style.display="inline-block"}>A</h1>
+                <div id='dropdiv'>
+                  <div id='dropbox'>
+                    <Link href="projects" className={`link ${pathname==='/projects' ? 'active' : null}`} >Work</Link>
+                    <Link href="#about"  className={`link ${pathname==='/about' ? 'active' : null}`}>about</Link>
+                    <Link href="/email/i" className={`link ${pathname==='/email/i' ? 'active' : null}`}>Lets Talk</Link>
+                    <Link href="#"  className={`link ${pathname==='/email/i' ? 'active' : null}`} onClick={()=>document.getElementById('dropdiv').style.display='none'}>cancel</Link>
+                  </div>
+                  
+                </div>
+                
+          </nav>
           <nav className="navbar2">
             <Link href="projects" className={`link ${pathname==='/projects' ? 'active' : null}`} >Work</Link>
             <Link href="#about"  className={`link ${pathname==='/about' ? 'active' : null}`}>about</Link>
