@@ -36,12 +36,14 @@ a:hover{
 }
 
 #Navigation{
+  
+  
   display: flex;
   justify-content:space-between;
   align-items: center;
   width: 100%;
   height: 8.1rem;
- 
+  
  
 }
 
@@ -182,8 +184,8 @@ a:hover{
 
 #work{
   margin-top: 7rem;
-  
-  
+  display: flex;
+  flex-wrap: wrap;
   gap: 3rem;
 }
 
@@ -209,8 +211,9 @@ a:hover{
   }
 }
 
+
 .projectImage{
-  width:100%;
+  width: 100%;
   height: 100%;
   
 }
@@ -624,4 +627,12 @@ footer{
   width: 20rem;
   height: 25rem;
  }
+
+ .workProjects >a{
+  display: inline-block;
+  width:100%
+}
+.workProjects{
+  height: 100%;
+}
 }

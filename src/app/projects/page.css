@@ -11,15 +11,38 @@
     padding-top: 3rem;
 }
 
+.animate1{
+    
+   height: 100%;
+}
+
 .animate1:hover{
-    scale: 1.2;
-    transition: 1s;
-    transform: translate(40%, -10%);
+    scale: 1.1;
+    transition: .5s;
+    
    
 }
 
+.animate2{
+   
+    height: 100%;
+}
+
 .animate2:hover{
-    scale: 1.2;
-    transition: 1s;
-    transform: translate(-40%, -10%);
+    scale: 1.1;
+    transition: .5s;
+    
+}
+
+@media only screen and(max-width:500px){
+    .workProjects{
+        max-width: 100%;
+
+    }
+
+    
+
+   
+    
+    
 }
