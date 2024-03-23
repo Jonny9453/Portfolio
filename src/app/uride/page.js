@@ -1,6 +1,7 @@
 import { Oswald} from 'next/font/google'
 import { Suspense } from 'react'
 import Image from 'next/image'
+import './page.css'
 
 const oswald = Oswald({
   weight: ['400', '200'],

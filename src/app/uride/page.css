@@ -1,0 +1,44 @@
+.imagesBox{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap:5rem;
+}
+
+@media only screen and (max-width:500px){
+    
+    .descriptionSection{
+        grid-template-columns: 1.5fr;
+    }
+    .description{
+        font-size: 2rem;
+        font-weight: 300;
+        text-align: justify;
+        word-break:keep-all;
+    }
+    .footer{
+        grid-template-columns: 1fr;
+        row-gap: 2rem;
+        overflow: hidden;
+    }
+
+    .footerContent{
+        font-size: 2rem;
+    }
+
+    .footerEmail{
+        font-size: 2rem;
+    }
+    .projectTitle{
+        font-size: 4rem;
+    }
+    .heroImageDiv{
+        max-width: 80%;
+    }
+    
+    .heroImageDiv2{
+        border-radius: 4rem;
+        overflow: hidden;
+        max-width:100%
+      }
+}
