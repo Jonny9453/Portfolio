@@ -5,6 +5,9 @@ import { usePathname } from 'next/navigation';
 import Link from 'next/link'
 import { useRouter } from 'next/navigation';
 import { useSelectedLayoutSegment } from 'next/navigation';
+import '@fontsource/roboto/300.css';
+
+import MenuOpenIcon from '@mui/icons-material/MenuOpen';
 
 import './globals.css'
 import { data } from 'autoprefixer';
@@ -89,7 +92,7 @@ export default function RootLayout(props) {
                 </nav>
 
                 <nav className='dropdown'> 
-                      <h1 onClick={()=>document.getElementById('dropbox').style.height="100%"}>A</h1>
+                      <h1 onClick={()=>document.getElementById('dropbox').style.height="100%"}><MenuOpenIcon  sx={{ fontSize: 35 }}/></h1>
                       <div id='dropdiv'>
                         <div id='dropbox'>
                           <Link href="projects" className={`link ${pathname==='/projects' ? 'active' : null}`} onClick={()=>document.getElementById('dropbox').style.height='0'}>Work</Link>
