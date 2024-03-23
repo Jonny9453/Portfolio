@@ -8,7 +8,7 @@ import { useSelectedLayoutSegment } from 'next/navigation';
 import '@fontsource/roboto/300.css';
 
 import MenuOpenIcon from '@mui/icons-material/MenuOpen';
-
+import CloseIcon from '@mui/icons-material/Close';
 import './globals.css'
 import { data } from 'autoprefixer';
 import { useEffect, useState } from 'react';
@@ -98,7 +98,7 @@ export default function RootLayout(props) {
                           <Link href="projects" className={`link ${pathname==='/projects' ? 'active' : null}`} onClick={()=>document.getElementById('dropbox').style.height='0'}>Work</Link>
                           <Link href="#about"  className={`link ${pathname==='/#about' ? 'active' : null}`} onClick={()=>document.getElementById('dropbox').style.height='0'}>about</Link>
                           <Link href="/email/i" className={`link ${pathname==='/email/i' ? 'active' : null}`} onClick={()=>document.getElementById('dropbox').style.height='0'}>Lets Talk</Link>
-                          <Link href="#"  className={`link ${pathname==='/email/i' ? 'active' : null}`} onClick={()=>document.getElementById('dropbox').style.height='0'}>cancel</Link>
+                          <Link href="#"  className={`link ${pathname==='/email/i' ? 'active' : null}`} onClick={()=>document.getElementById('dropbox').style.height='0'}><CloseIcon sx={{ fontSize: 35 }}/></Link>
                         </div>
                         
                       </div>

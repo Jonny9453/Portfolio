@@ -5,6 +5,7 @@ import { useRouter } from 'next/navigation'
 import './page.css'
 import { useForm, ValidationError } from '@formspree/react';
 
+
 export default function Email() {
 
     const router=useRouter();
