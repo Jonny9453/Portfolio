@@ -57,3 +57,18 @@ label{
   font-weight: 600;
 }
 
+@media (max-width:500px){
+    
+  form>button{
+    width:15rem;
+    padding: 1.5rem;
+    font-size: 2rem;
+  }
+  .closemodal{
+    font-size: 1.5rem;
+  }
+
+  input{
+    width: 100%;
+}
+}

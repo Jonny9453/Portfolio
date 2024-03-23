@@ -67,4 +67,8 @@ label{
   .closemodal{
     font-size: 1.5rem;
   }
+
+  input{
+    width: 100%;
+}
 }
