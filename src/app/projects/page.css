@@ -34,10 +34,17 @@
     
 }
 
-@media only screen and(max-width:500px){
+@media (max-width:500px){
     .workProjects{
         max-width: 100%;
 
+    }
+
+    #work{
+        margin-top: 1rem;
+    }
+    .headingWork{
+        font-size: 3rem;
     }
 
 }

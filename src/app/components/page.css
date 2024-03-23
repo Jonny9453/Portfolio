@@ -4,6 +4,12 @@
 @media (max-width:500px){
     
     .modal{
-      max-width:500px;
+      max-width:480px;
+    }
+    input{
+        width: 100%;
+    }
+    .talkHeading{
+        font-size: 3.8rem;
     }
   }
