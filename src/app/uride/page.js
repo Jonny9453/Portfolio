@@ -11,7 +11,7 @@ const oswald = Oswald({
 })
 
 export default function project(params) {
-  console.log(params.project)
+  
   return (
     <>
         
@@ -25,7 +25,7 @@ export default function project(params) {
                 </div>
                 <div className={`descriptionSection`}>
                     <div>
-                        <p className={`description ${oswald.className}`}>I&apos;ve developed a responsive movie app using Next.js, which offers a seamless experience for users across both desktop and mobile devices. This app leverages API data to enable google map, direction of the location and  descriptions of the routes. The entire application is contained within a single web page, ensuring a smooth and efficient user journey. And its also has authentication service and mongodb database to store youre your recent bookimgs and price you booked for.</p>
+                        <p className={`description ${oswald.className}`}>I&apos;ve developed a responsive uride app using Next.js, which offers a seamless experience for users across both desktop and mobile devices. This app leverages API data to enable google map, direction of the location and  descriptions of the routes. The entire application is contained within a single web page, ensuring a smooth and efficient user journey. And its also has authentication service and mongodb database to store youre your recent bookimgs and price you booked for.</p>
                         <div style={{marginTop:"4rem"}}>
                              <a className={`preview ${oswald.className} ` } href="https://uride-dhvg.vercel.app/">Vist the website live version</a>
 
@@ -33,6 +33,7 @@ export default function project(params) {
                     </div>
                 </div>
                 <Suspense fallback={<p>Loading feed...</p>}>
+                    <div className='imagesBox'>
                     <div className="heroImageDiv2">
                         <Image src="/img/uridelogin.webp" alt="" class="heroImage" width={2000} height={2000}/>
                     </div>
@@ -48,6 +49,8 @@ export default function project(params) {
                     <div className="heroImageDiv2">
                         <Image src="/img/location2.webp" alt="" class="heroImage"  width={2000} height={2000}/>
                     </div>
+                    </div>
+                    
                 </Suspense>
               
             </main>
