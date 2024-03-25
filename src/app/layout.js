@@ -12,6 +12,7 @@ import CloseIcon from '@mui/icons-material/Close';
 import './globals.css'
 import { data } from 'autoprefixer';
 import { useEffect, useState } from 'react';
+import { PinDrop } from '@mui/icons-material';
 
 const inter = Inter({ 
   weight: ['100', '400', '500', '600', '700'],
@@ -59,8 +60,10 @@ const DateTime=()=>{
   })
   return (
     <>
-      <p>{date.toLocaleString()}</p>
-      
+    <div>
+      <p>{date.toDateString()},</p>
+      <p>{date.toLocaleTimeString()}</p>
+    </div>  
     </>
   )
 }
@@ -92,7 +95,7 @@ export default function RootLayout(props) {
                 </nav>
 
                 <nav className='dropdown'> 
-                      <h1 onClick={()=>document.getElementById('dropbox').style.height="100%"}><MenuOpenIcon  sx={{ fontSize: 35 }}/></h1>
+                      <div className="drop" onClick={()=>document.getElementById('dropbox').style.height="100%"}><MenuOpenIcon  sx={{ fontSize: 35 }}/></div>
                       <div id='dropdiv'>
                         <div id='dropbox'>
                           <Link href="projects" className={`link ${pathname==='/projects' ? 'active' : null}`} onClick={()=>document.getElementById('dropbox').style.height='0'}>Work</Link>

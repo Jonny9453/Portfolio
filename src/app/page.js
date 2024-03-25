@@ -18,8 +18,8 @@ export default function Home() {
       <main>
         <div className="mainHeading">
           <h1 className="heading">
-            Hey I am Mayank
-            <span className='position'>A</span>
+            Hey I am Mayank<br/>
+            <span className='position'> A&nbsp;</span>
             <span className="position"> Frontend Developer</span>
           </h1>
           <div className="work">

@@ -494,6 +494,14 @@ footer{
   
   /* height:40rem; */
  }
+ .navbar1{
+  gap:4rem
+ }
+
+ .drop:hover{
+    cursor: pointer;
+    color: rgb(245, 6, 125);
+ }
  .mainHeading{
   margin-top: 3.4rem !important;
  }
