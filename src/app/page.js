@@ -102,8 +102,7 @@ export default function Home() {
            fully functional web applications. My proficiency extends to database
            management using MongoDB, API integration, and implementing authentication
            mechanisms to ensure secure user experiences.<br/><br/>
-           <Link href="https://www.canva.com/design/DAF38MRcZDs/YPF_T9RvL0WtsADNkHI1Fw/view?
-           utm_content=DAF38MRcZDs&utm_campaign=designshare&utm_medium=link&utm_source=editor">
+           <Link href="https://1drv.ms/w/c/bf3f0afb6e0db6aa/EfUfjo4yIA9OsZgLGQU6C3oB9VpolNf_CyQGk4CKImZnXg?e=IG9PSq">
             Resume</Link></p>
            <div className='mydp'>
               <Image src='/img/Mydp.jpg'  alt=''   width={500} height={500} />
